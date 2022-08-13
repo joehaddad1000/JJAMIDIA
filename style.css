@@ -5,6 +5,9 @@ body {
   margin: auto;
   text-align: center;
 }
+img {
+  loading: eager;
+}
 
 #logo {
   box-sizing: border-box;
