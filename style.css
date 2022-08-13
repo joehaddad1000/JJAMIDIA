@@ -1,5 +1,5 @@
 body {
-background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   font-family: 'Ubuntu', sans-serif;
   color: white;
   margin: auto;
@@ -9,16 +9,18 @@ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 #logo {
   box-sizing: border-box;
   padding: 10px;
-  background: linear-gradient(180deg, rgba(84,150,222,1) 0%, rgba(90,42,5,0) 100%);
+  background: linear-gradient(180deg, rgba(84, 150, 222, 1) 0%, rgba(90, 42, 5, 0) 100%);
   background-repeat: round;
   width: 100%;
   align-items: center;
 }
+
 .txt1 {
   font-size: 2.5rem;
   margin: 10px;
   text-align: center;
 }
+
 .container1 {
   box-sizing: border-box;
   padding-top: 5px;
@@ -29,10 +31,14 @@ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   align-items: center;
   justify-content: space-evenly;
 }
-.link-none, .link-none:active, .link-none:hover {
+
+.link-none,
+.link-none:active,
+.link-none:hover {
   text-decoration: none;
   color: white;
 }
+
 #link_cheap {
   text-decoration: underline;
   text-decoration-color: white;
