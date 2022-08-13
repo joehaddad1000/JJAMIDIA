@@ -1,6 +1,15 @@
-body{ 
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+body {
+background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   font-family: 'Ubuntu', sans-serif;
   color: white;
-  
+  margin: auto;
+}
+
+#logo {
+  box-sizing: border-box;
+  padding: 10px;
+  background: linear-gradient(180deg, rgba(84,150,222,1) 0%, rgba(90,42,5,0) 100%);
+  background-repeat: round;
+  width: 100%;
+  align-items: center;
 }
